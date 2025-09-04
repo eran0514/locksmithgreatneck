@@ -56,3 +56,13 @@ up to date, audited 196 packages in 2s
 
 found 0 vulnerabilities
 [%date% %time%] Committing and pushing changes...
+warning: in the working copy of '%LOGFILE%', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+[main c2a9d17] Auto deploy: %date% %time%
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/eran0514/locksmithgreatneck.git
+   e5ed401..c2a9d17  main -> main
+[%date% %time%] Deploying to Vercel...
+bash: vercel: command not found
+[%date% %time%] Starting local dev server...
+[%date% %time%] Deployment complete!
