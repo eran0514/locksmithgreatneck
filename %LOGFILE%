@@ -1,0 +1,58 @@
+[%date% %time%] Starting deployment...
+[%date% %time%] Cleaning old installs...
+bash: rd: command not found
+bash: del: command not found
+[%date% %time%] Clearing npm cache...
+npm warn using --force Recommended protections disabled.
+[%date% %time%] Installing dependencies...
+
+up to date, audited 196 packages in 1s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[%date% %time%] Running npm audit fix...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: vaul@0.9.9
+npm warn Found: react@19.1.1
+npm warn node_modules/react
+npm warn   react@"^19" from the root project
+npm warn   72 more (@floating-ui/react-dom, @radix-ui/react-accordion, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9
+npm warn node_modules/vaul
+npm warn   vaul@"^0.9.9" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@18.3.1
+npm warn node_modules/react
+npm warn   peer react@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9
+npm warn   node_modules/vaul
+npm warn     vaul@"^0.9.9" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: vaul@0.9.9
+npm warn Found: react-dom@19.1.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"^19" from the root project
+npm warn   47 more (@floating-ui/react-dom, @radix-ui/react-accordion, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9
+npm warn node_modules/vaul
+npm warn   vaul@"^0.9.9" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@18.3.1
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9
+npm warn   node_modules/vaul
+npm warn     vaul@"^0.9.9" from the root project
+
+up to date, audited 196 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[%date% %time%] Committing and pushing changes...
